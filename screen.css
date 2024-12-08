@@ -114,11 +114,20 @@ ol{
     padding: 10px;
     border-radius: 30px;
 }
-.Peele{
-    border-radius: 20px;
+.Poster{
+    width: 100%;
+    border: 7pt solid #A8DADC;
+    border-radius: 10px;
 }
-.PlasticSK{
-    border-radius: 20px;
+.Menu{
+    width: 100%;
+    border: 7pt solid #A8DADC;
+    border-radius: 10px;
+}
+iframe{
+    width: 100%;
+    border: 7pt solid #A8DADC;
+    border-radius: 10px;
 }
 figure {
    float: right;

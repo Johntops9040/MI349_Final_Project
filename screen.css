@@ -38,6 +38,7 @@ article:nth-of-type(2){
     padding-left: 10px;
 }
 input, textarea{
+    width: 45%;
     padding: 15px; 
     border-color: #457B9D;
     background-color: #457B9D;
@@ -46,10 +47,14 @@ input, textarea{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 24pt;
 }
+::placeholder{
+    color: #F1FAEE;
+}
 
 h2{
+    margin: 0;
     font-family: 'Times New Roman', Times, serif;
-    font-size:40pt;
+    font-size:92pt;
     text-align: center;
 }
 p{

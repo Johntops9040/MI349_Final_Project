@@ -20,27 +20,13 @@
         </nav>
     </header>
     <div class="Contact"> 
-      <form name="Contact me"method="post"action="index.html"netlify>
+      <form name="Contact me"method="POST" data-netlify="true" onSubmit="submit">
         <h2>Contact</h2>
-        <p> <label>Name</label><br>
-          <input type="text" name="Name">
-        </p>
-        <p>
-          <label>Email</label><br>
-          <input type="email" name="Email">
-        </p>
-        <p>
-          
-          <input type="email" name="Email">Subject
-        </p>
-        <p>
-          <label for="opencomment">open comment</label><br>
-          <textarea name="opencomment" id="opencomment" rows="4" cols="50">
-            </textarea>
-        </p>
-        <p>
-          <input type="submit">
-        </p>
+        <p> <input type="text" name="Name" placeholder="Name"></p>
+        <p> <input type="email" name="Email" placeholder="Email"></p>
+        <p><input type="email" name="Email" placeholder="Subject"></p>
+        <p><textarea name="opencomment" id="opencomment" rows="4" cols="50" placeholder="Your Message"></textarea></p>
+        <p><input type="button" value="Click me"></p>
       </form>
     </div>
     <script src="index.js"></script>

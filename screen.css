@@ -99,7 +99,7 @@ p{
     text-align: center;
     line-height: 1.8 cm;
     font-size: 20pt;
-    font-family: cursive;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #1D3557;
 }
 span.Highlight{
@@ -107,6 +107,7 @@ span.Highlight{
 }
 span.Hello{
     color: #457B9D;
+    font-family: cursive;
     font-size: 24;
 }
 .Me{

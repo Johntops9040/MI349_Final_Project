@@ -27,14 +27,7 @@ section{
     padding: 25px;
     display: flex;
 }
-article{
-    text-align: center;
-    line-height: 1.8 cm;
-    font-size: 20pt;
-    font-family: cursive;
-    color: #1D3557;
-    width: 100%;
-}
+
 
 .ImageHome{
     padding-top: 50px;
@@ -134,9 +127,13 @@ ol{
     border: 7pt solid #A8DADC;
     border-radius: 10px;
 }
-
 .Menu{
     width: 100%;
+    border: 7pt solid #A8DADC;
+    border-radius: 10px;
+}
+.MenuP{
+    width: 700px;
     border: 7pt solid #A8DADC;
     border-radius: 10px;
 }

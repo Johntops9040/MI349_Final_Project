@@ -59,6 +59,16 @@ input.submit {
     color: #F1FAEE;
 }
 
+h1{
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:64pt;
+    text-align: center;
+    text-decoration-line:underline;
+    text-decoration-thickness: 5px;
+    text-underline-offset: 15px;
+    
+}
 h2{
     margin: 0;
     font-family: Georgia, 'Times New Roman', Times, serif;

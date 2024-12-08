@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="screen.css">
+  </head>
+  <body>
+    <header>
+      <h1>Contact Page</h1>
+        <nav>
+          <a href="index.html" class="link">Home</a>
+          <a href="about.html" class="link">About</a>
+          <a href="contact.html" class="active">Contact</a>
+        </nav>
+    </header>
+    <div class="Contact"> 
+      <form name="Contact me"method="post"action="index.html"netlify>
+        <p> <label>Name</label><br>
+          <input type="text" name="Name">
+        </p>
+        <p>
+          <label>Email</label><br>
+          <input type="email" name="Email">
+        </p>
+        <p>
+          <label for="contactreason">Reason for Contact </label><br>
+          <select name="contactreason" id="contactreason">
+          <option value="saying hi">Saying hi</option>
+          <option value="looking for a contractor"> Looking for a contractor</option>
+          <option value="interested in an interview">Interested in an interview</option>
+          </select>
+        </p>
+        <p>
+          <label for="opencomment">open comment</label><br>
+          <textarea name="opencomment" id="opencomment" rows="4" cols="50">
+            </textarea>
+        </p>
+        <p>
+          <input type="submit">
+        </p>
+      </form>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

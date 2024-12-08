@@ -136,9 +136,11 @@ span.Hello{
     border-radius: 10px;
 }
 iframe{
-    width: 100%;
     border: 7pt solid #A8DADC;
     border-radius: 10px;
+}
+.ALS{
+    padding-top: 180px;
 }
 figure {
    float: right;

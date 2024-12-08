@@ -1,11 +1,11 @@
 /* Add screen styles below */
 body {
 
-    background: #D3D0CB;  
+    background: #F1FAEE;  
     margin: 0;
     padding: 0;
-    color: #393E41;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #1D3557;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .HomePage {
@@ -56,7 +56,7 @@ h1{
     font-size: 40pt;
     padding-left: 10px;
     flex: 1000px;
-    color: #D3D0CB;
+    color: #F1FAEE;
 }
 h2{
     font-size:35pt;
@@ -98,10 +98,10 @@ a{
 }
 a.link{
     text-decoration: none;
-    color: #D3D0CB;
+    color: #F1FAEE;
 }
 a.active {
-    color: #587B7F;
+    color: #A8DADC;
     font-weight: bold;
 }
 
@@ -109,7 +109,7 @@ header{
     padding-left: 5px;
     display: flex;
     width: 100%;
-    background-color: #1E2019;
+    background-color: #457B9D;
     line-height: .8cm;
     position: sticky;
     top: 0;

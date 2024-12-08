@@ -106,19 +106,17 @@ span.Hello{
     color: #457B9D;
     font-size: 24;
 }
-.AutDat{
-    white-space: pre-wrap;
-    text-align: center;
-}
-ol{
-    white-space: pre-wrap;
-}
 .Me{
     padding: 10px;
     border-radius: 30px;
 }
 .Poster{
     width: 100%;
+    border: 7pt solid #A8DADC;
+    border-radius: 10px;
+}
+.PosterP{
+    width: 800px;
     border: 7pt solid #A8DADC;
     border-radius: 10px;
 }

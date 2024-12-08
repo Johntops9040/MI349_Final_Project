@@ -75,6 +75,15 @@ h2{
     font-size:92pt;
     text-align: center;
 }
+h3{
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:64pt;
+    text-decoration-line:underline;
+    text-decoration-thickness: 5px;
+    text-underline-offset: 15px;
+    
+}
 p{
     line-height: 1.8 cm;
 }

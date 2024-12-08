@@ -21,21 +21,6 @@ div{
     text-align: center;
 
 }
-input{
-    width: 40%;
-    height: 25pt;
-    border-radius: 25px;
-}
-#contactreason{
-    width: 45%;
-    height: 30pt;
-    border-radius: 25px;
-}
-textarea{
-    width: 50%;
-    height: 100pt;
-    border-radius: 25px;
-}
 
 article{
     margin: 20px;
@@ -51,6 +36,14 @@ article:nth-of-type(2){
 .Form{
     padding-bottom: 5px;
     padding-left: 10px;
+}
+input, textarea{
+    padding: 15px; 
+    background-color: #457B9D;
+    color: #F1FAEE;
+    border-radius: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 24pt;
 }
 h1{
     font-size: 40pt;

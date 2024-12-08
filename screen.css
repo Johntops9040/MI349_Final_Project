@@ -35,9 +35,7 @@ article:nth-of-type(2){
     padding-bottom: 5px;
     padding-left: 10px;
 }
-input [type=submit] {
-    color: #F1FAEE;
-}
+
 input, textarea{
     width: 45%;
     padding: 15px; 
@@ -47,6 +45,10 @@ input, textarea{
     border-radius: 20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 24pt;
+}
+input.submit {
+    color: #F1FAEE;
+    background-color: #1D3557;
 }
 ::placeholder{
     color: #F1FAEE;

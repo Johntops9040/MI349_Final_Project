@@ -20,16 +20,21 @@ div{
     text-align: center
 }
 
-article{
+section{
     margin: 20px;
     font-size: 20pt;
     padding: 25px;
+    display: flex;
 }
-article:nth-of-type(1){
-    flex: 3;
+
+.ImageHome{
+    padding-top: 50px;
+
+
 }
-article:nth-of-type(2){
-    flex: 3;
+.TextHome{
+    padding-top: 50px;
+    text-align: center;
 }
 .Form{
     padding-bottom: 5px;
@@ -86,6 +91,16 @@ h3{
 }
 p{
     line-height: 1.8 cm;
+    font-size: 20pt;
+    font-family: cursive;
+    color: #1D3557;
+}
+span.Highlight{
+    color: #457B9D;
+}
+span.Hello{
+    color: #457B9D;
+    font-size: 24;
 }
 .AutDat{
     white-space: pre-wrap;
@@ -119,6 +134,13 @@ a{
     padding-left: 10px;
 }
 a.link{
+    text-decoration: none;
+    color: #F1FAEE;
+}
+a.button{
+    padding: 15px;
+    background-color: #457B9D;
+    border-radius: 60px;
     text-decoration: none;
     color: #F1FAEE;
 }

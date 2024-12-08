@@ -17,9 +17,7 @@ div{
     font-size: 20pt;
 }
 .Contact{
-    font-size: 30pt;
-    text-align: center;
-
+    text-align: center
 }
 
 article{
@@ -36,6 +34,9 @@ article:nth-of-type(2){
 .Form{
     padding-bottom: 5px;
     padding-left: 10px;
+}
+input [type=submit] {
+    color: #F1FAEE;
 }
 input, textarea{
     width: 45%;

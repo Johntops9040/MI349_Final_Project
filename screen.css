@@ -5,7 +5,7 @@ body {
     margin: 0;
     padding: 0;
     color: #1D3557;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .HomePage {
@@ -39,6 +39,7 @@ article:nth-of-type(2){
 }
 input, textarea{
     padding: 15px; 
+    border-color: #457B9D;
     background-color: #457B9D;
     color: #F1FAEE;
     border-radius: 20px;
@@ -46,13 +47,17 @@ input, textarea{
     font-size: 24pt;
 }
 h1{
+    padding-left: 300px;
+    padding-right: 300px;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 40pt;
-    padding-left: 10px;
-    flex: 1000px;
+    text-align: center;
+    white-space: nowrap;
     color: #F1FAEE;
 }
 h2{
-    font-size:35pt;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:40pt;
     text-align: center;
 }
 p{
@@ -109,9 +114,12 @@ header{
     z-index: 1;
     
 }
+
 nav{
+    font-family: 'Times New Roman', Times, serif;
     width: 100%;
     padding-top: 40px;
-    padding-right: 20px;
-    text-align: right;
-    font-size: large;
+    padding-right: 75px;
+    text-align: center;
+    font-size: 24pt;
+    }
